@@ -1,0 +1,12 @@
+.header {
+  padding: 10px 0;
+  background-color: var(--primary-color);
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-title {
+  margin: 0 auto;
+}
