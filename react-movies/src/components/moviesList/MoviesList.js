@@ -34,7 +34,7 @@ function MoviesList() {
   };
 
   const onNextClick = () => {
-    if (currentPage < movies.pages - 1) {
+    if (currentPage <= movies.pages - 1) {
       setCurrentPage((current) => current + 1);
     }
   };
